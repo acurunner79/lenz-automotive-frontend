@@ -1,0 +1,24 @@
+.hamburger-container{
+    position: fixed;
+    right: 8vw;
+    top: 5.5vh;
+    width: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 100;
+}
+
+.hamburger-icon{
+    width: 2.5rem;
+    height: 0.22rem;
+    padding: 2px 0 2px 0;
+    margin: 1px 0 2px 0; 
+    background: black;
+}
+
+@media (min-width: 767px) {
+    .hamburger-container {
+            display: none;
+    }
+}

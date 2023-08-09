@@ -1,0 +1,11 @@
+.navbar{
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+}
