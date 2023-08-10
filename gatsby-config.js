@@ -7,7 +7,6 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-styled-components",
-    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
