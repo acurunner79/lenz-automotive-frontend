@@ -14,6 +14,7 @@ const Hamburger = () => {
     const isOpen = () => {
         return (
             <>
+                
                 <div className='hamburger-container open' onClick={handleClick}>
                     <div className='hamburger-icon open'></div>
                     <div className='hamburger-icon open'></div>

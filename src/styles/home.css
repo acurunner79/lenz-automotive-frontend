@@ -2,7 +2,7 @@
     width: 100vw;
     height: 5vh;
     background-color: rgb(31, 54, 95);
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 .subnav-phone{
@@ -14,4 +14,9 @@
 
 .homepage-header{
     font-family: 'Kanit';
+}
+
+.hero-image{
+    width: 27vw;
+    margin: 10px auto;
 }

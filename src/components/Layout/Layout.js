@@ -43,6 +43,7 @@ const Layout = ({ children }) => {
     <div>
       <GlobalStyle />
       <Hamburger />
+      <img className='hero-image' src='https://res.cloudinary.com/acurunner79/image/upload/v1691710481/FullLogo_Transparent_NoBuffer_1_kkig9r.png' alt="main-logo"/>
       <Nav />
       <section>{children}</section>
     </div>
