@@ -2,10 +2,20 @@
     display: none;
 }
 
+#navbar-link{
+    color: rgb(2, 15, 79);
+}
+
 @media (min-width: 767px) {
     .navbar{
         display: flex;
         justify-content: space-evenly;
         width: 100vw;
+        /* background-color: rgb(2, 15, 79); */
+    }
+
+    ul.navbar-link-container{
+        display: flex;
+        justify-content: space-evenly;
     }
 }

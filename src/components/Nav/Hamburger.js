@@ -15,9 +15,9 @@ const Hamburger = () => {
         return (
             <>
                 <div className='hamburger-container open' onClick={handleClick}>
-                    <div className='hamburger-icon'></div>
-                    <div className='hamburger-icon'></div>
-                    <div className='hamburger-icon'></div>
+                    <div className='hamburger-icon open'></div>
+                    <div className='hamburger-icon open'></div>
+                    <div className='hamburger-icon open'></div>
                 </div>
                 <div className='right-nav open'>
                     <RightNav handleClick={handleClick}/>

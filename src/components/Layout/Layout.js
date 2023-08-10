@@ -16,6 +16,7 @@ body{
     height: 100vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    // background: rgb(2, 15, 79)
 }
 
 a{
@@ -25,11 +26,15 @@ a{
 li{
     text-decoration: none;
     list-style: none;
-    color: black;
+    font-weight: 500;
 }
 
 h1{
     padding-top: 100px
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: rgb(2, 15, 79);
 }
 `
 

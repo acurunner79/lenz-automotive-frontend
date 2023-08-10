@@ -7,10 +7,10 @@ const RightNav = () => {
     <nav id='right-nav'>
         <ul>
             <Link to='/'>
-                <li>Home</li>
+                <li id='right-nav-link'>Home</li>
             </Link>
             <Link to='/contact'>
-                <li>Contact</li>
+                <li id='right-nav-link'>Contact</li>
             </Link>
         </ul>
     </nav>
