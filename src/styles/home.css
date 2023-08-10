@@ -1,0 +1,17 @@
+.subnav{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(31, 54, 95);
+    margin-top: 80px;
+}
+
+.subnav-phone{
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.homepage-header{
+    font-family: 'Kanit';
+}

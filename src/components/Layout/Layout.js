@@ -30,11 +30,11 @@ li{
 }
 
 h1{
-    padding-top: 100px
+    padding-top: 50px
 }
 
 h1, h2, h3, h4, h5, h6, p{
-    color: rgb(2, 15, 79);
+    color: rgb(31, 54, 95);
 }
 `
 

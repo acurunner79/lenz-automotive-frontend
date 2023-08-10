@@ -1,7 +1,7 @@
 .hamburger-container{
     position: fixed;
     right: 8vw;
-    top: 5.5vh;
+    top: 3.0vh;
     width: 2rem;
     display: flex;
     justify-content: space-around;
@@ -13,12 +13,12 @@
     width: 2.5rem;
     height: 0.22rem;
     padding: 2px 0 2px 0;
-    margin: 1px 0 2px 0; 
-    background: rgb(2, 15, 79);
+    margin: 5px 0 2px 0; 
+    background: rgb(31, 54, 95);
 }
 
 .hamburger-icon.open{
-    background: white;
+    /* background: white; */
 }
 
 @media (min-width: 767px) {
