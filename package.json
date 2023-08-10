@@ -15,11 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@material-ui/icons": "^4.11.3",
-    "@mui/icons-material": "^5.14.3",
     "babel-plugin-styled-components": "^2.1.4",
-    "font-awesome": "^4.7.0",
     "gatsby": "^5.11.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-material-ui": "^4.0.2",
