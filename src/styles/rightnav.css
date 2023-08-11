@@ -29,7 +29,7 @@
 #right-nav-link{
     color: white;
     background-color: rgb(31, 54, 95);
-    border-top: 1px solid white;
+    border-top: 1px solid rgba(146, 151, 160, 0.714);
     font-size: 25px;
     text-align: left;
     padding: 7px 0 0 15px;

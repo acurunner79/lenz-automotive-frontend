@@ -30,7 +30,8 @@ li{
 }
 
 h1{
-    padding-top: 50px
+  padding-top: 50px;
+  font-size: 26px
 }
 
 h1, h2, h3, h4, h5, h6, p{
