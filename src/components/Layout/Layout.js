@@ -1,6 +1,6 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
-
+import { Link } from 'gatsby'
 import Hamburger from '../Nav/Hamburger'
 import Nav from '../Nav/Nav'
 
@@ -45,7 +45,9 @@ const Layout = ({ children }) => {
     <div>
       <GlobalStyle />
       <Hamburger />
-      <img className='hero-image' src='https://res.cloudinary.com/acurunner79/image/upload/v1691771668/FullLogo_Transparent_NoBuffer_2_jahwfm.png' alt="main-logo"/>
+      <Link to='/'>
+        <img className='hero-image' src='https://res.cloudinary.com/acurunner79/image/upload/v1691771668/FullLogo_Transparent_NoBuffer_2_jahwfm.png' alt="main-logo"/>
+      </Link>
       <Nav />
       <section>{children}</section>
     </div>
