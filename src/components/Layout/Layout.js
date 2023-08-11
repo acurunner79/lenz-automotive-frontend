@@ -1,5 +1,6 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
+
 import Hamburger from '../Nav/Hamburger'
 import Nav from '../Nav/Nav'
 
@@ -30,8 +31,8 @@ li{
 }
 
 h1{
-  padding-top: 50px;
-  font-size: 26px
+  margin: 20px auto;
+  font-size: 30px
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -44,7 +45,7 @@ const Layout = ({ children }) => {
     <div>
       <GlobalStyle />
       <Hamburger />
-      <img className='hero-image' src='https://res.cloudinary.com/acurunner79/image/upload/v1691710481/FullLogo_Transparent_NoBuffer_1_kkig9r.png' alt="main-logo"/>
+      <img className='hero-image' src='https://res.cloudinary.com/acurunner79/image/upload/v1691771668/FullLogo_Transparent_NoBuffer_2_jahwfm.png' alt="main-logo"/>
       <Nav />
       <section>{children}</section>
     </div>
