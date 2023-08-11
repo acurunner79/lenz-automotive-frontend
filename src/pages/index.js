@@ -22,16 +22,23 @@ const IndexPage = () => {
           src="https://res.cloudinary.com/acurunner79/image/upload/v1691786351/FullLogo_Transparent_NoBuffer_4_jck1al.png" 
           alt="main-logo"
         />
-        <h1 className="homepage-header">"Professional Vehicle Maintenance and Repairs"</h1>
+        <h1 className="homepage-header">
+          <i>
+            "Professional Vehicle Maintenance and Repairs with Over 25 Years of Experience"
+          </i>
+        </h1>
         <div className="upper-card-container">
-          <div className="oil-change-card">
-              <img src="https://res.cloudinary.com/acurunner79/image/upload/v1691773026/the-telltale-signs-its-time-for-an-oil-change_r6eto8.jpg" className="oil-change-image" alt="oil change light"/>
+          <div className="services-card">
+            <img className="oil-change-image"
+              src="https://res.cloudinary.com/acurunner79/image/upload/v1691773026/the-telltale-signs-its-time-for-an-oil-change_r6eto8.jpg"  
+              alt="oil change light"
+            />
             <h2 className="oil-change-span">
               <span >Oil Change and Maintenance <FaArrowRight size='18' className="phone-icon"/></span>
             </h2>
           </div>
-          <div className="oil-change-card">
-              <img src="https://res.cloudinary.com/acurunner79/image/upload/v1691784582/ac_jgs1kk.jpg" className="oil-change-image" alt="ac service on vehicle"/>
+          <div className="services-card">
+            <img src="https://res.cloudinary.com/acurunner79/image/upload/v1691784582/ac_jgs1kk.jpg" className="oil-change-image" alt="ac service on vehicle"/>
             <h2 className="oil-change-span">
               <span >A/C Service <FaArrowRight size='18' className="phone-icon"/></span>
             </h2>
