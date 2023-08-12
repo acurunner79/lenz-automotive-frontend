@@ -1,12 +1,18 @@
 .hamburger-container{
     position: fixed;
+    padding: 5px;
     right: 8vw;
-    top: 3.0vh;
-    width: 2rem;
+    top: 2.0vh;
+    width: 3rem;
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
     z-index: 100;
+    background-color: white;
+}
+
+.hamburger-container.open{
+    background-color: transparent;
 }
 
 .hamburger-icon{

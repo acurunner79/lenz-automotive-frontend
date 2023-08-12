@@ -1,6 +1,5 @@
 import * as React from "react"
 import Layout from "../components/Layout/Layout"
-import { FaPhone } from '@react-icons/all-files/fa/FaPhone'
 import {FaArrowRight} from '@react-icons/all-files/fa/FaArrowRight'
 import '../styles/home.css'
 
@@ -9,15 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <main>
-        <div className="subnav">
-          <p className="subnav-area">
-            Chicagoland Area
-          </p>
-          <p className="subnav-phone">
-            <FaPhone size='18' className="phone-icon"/>
-            (779) 227-2127 
-          </p> 
-        </div>
+        
         <img className="homepage-logo"
           src="https://res.cloudinary.com/acurunner79/image/upload/v1691786351/FullLogo_Transparent_NoBuffer_4_jck1al.png" 
           alt="main-logo"
