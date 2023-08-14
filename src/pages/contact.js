@@ -37,23 +37,28 @@ const contact = () => {
           <br/>
           <h2 className='form-input-header'>Enter your information and a brief description of your vehicle's issue(s)</h2>
           <label className='form-label'>First Name
-            <input className='form-input'/>
+            <input className='form-input'
+              placeholder='Enter First Name'/>
           </label>
           <br/>
           <label className='form-label'>Last Name
-            <input className='form-input'/>
+            <input className='form-input'
+              placeholder='Enter Last Name'/>
           </label>
           <br/>
           <label className='form-label'>Phone
-            <input className='form-input'/>
+            <input className='form-input'
+              placeholder='Enter Phone Number'/>
           </label>
           <br/>
           <label className='form-label'>Email
-            <input className='form-input'/>
+            <input className='form-input'
+              placeholder='Enter Email Address'/>
           </label>
           <br/>
           <label className='form-label'>Description<br/>
-            <textarea className='form-textarea'/>
+            <textarea className='form-textarea'
+              placeholder='Enter Brief Description'/>
           </label>
           <br/>
           <button className= 'form-button' type='submit'>Submit</button>
