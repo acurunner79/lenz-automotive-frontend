@@ -31,6 +31,7 @@ label.form-label{
     color: rgb(31, 54, 95);
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .form-input{
@@ -50,11 +51,15 @@ label.form-label{
 .form-button{
     width: 47%;
     height: 2rem;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     background-color: rgb(31, 54, 95);
     color: white;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     border: 1px solid transparent;
     border-radius: 4px;
+}
+
+.submit-message{
+    margin: 100px auto;
 }

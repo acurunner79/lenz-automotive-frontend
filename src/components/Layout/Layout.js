@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import { FaPhone } from '@react-icons/all-files/fa/FaPhone'
 import Hamburger from '../Nav/Hamburger'
 import Nav from '../Nav/Nav'
+import Footer from '../Footer/Footer'
 
 const GlobalStyle = createGlobalStyle`
 
@@ -89,6 +90,7 @@ const Layout = ({ children }) => {
           </p> 
         </div>
       <section>{children}</section>
+      <Footer />
     </div>
   )
 }
